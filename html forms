@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="/action_page.php">
+        <label for="">Usuario:</label>
+        <input type="text" id="texto" name="texto" value="Meu Nome" required>
+        <br>
+        <label for="">Senha:</label>
+        <input type="password" id="texto" name="texto" value="Minha Senha" required>
+        <br>
+        <label for="">E-mail:</label>
+        <input type="email" id="texto" name="texto" value="Meu Nome" required>
+        <br>
+        <label for="">Data e hora do atendimento:</label>
+        <input type="datetime-local" id="texto" name="texto" value="Meu Nome">
+        <br>
+        <p>Possui alguma doença?</p>
+        <input type="radio" id="radio1" name="texto" value="Meu Nome">
+        <label for="">Sim</label>
+        <br>
+        <input type="radio" id="radio2" name="texto" value="Meu Nome">
+        <label for="">Não</label>
+        <br>
+
+        <p>Se sim, quais?</p>
+        <input type="checkbox" id="radio1" name="texto" value="Meu Nome">
+        <label for="">Diabetes</label>
+        <br>
+        <input type="checkbox" id="radio2" name="texto" value="Meu Nome">
+        <label for="">Hipertensão</label>
+        <br>
+        <input type="checkbox" id="radio1" name="texto" value="Meu Nome">
+        <label for="">Cancer</label>
+        <br>
+        <input type="checkbox" id="radio2" name="texto" value="Meu Nome">
+        <label for="">AIDS</label>
+        <br>
+        <p>Qual sua dor de 1 a 10?</p>
+        <label for="dor"></label>
+    <select name="dores" id="dores">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <br>
+    <label for="">Possui algum exame?</label>
+    <input type="file" id="radio1" name="texto" value="Meu Nome">
+    <br>
+
+        <input type="submit" id="Botao" name="texto" value="Enviar">
+
+</form>
+</body>
+</html>
